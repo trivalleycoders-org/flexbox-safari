@@ -13,12 +13,12 @@ const Member = (props) => {
         hash={props._id}
              />
     } else {
-      return <img className='member-img' src={props.picture} responsive alt='member picture' />
+      return <img className='member-img' src={props.picture} alt='member picture' />
     }
   }
   return (
     <div className='member-item'>
-      <div className='member-img-container'>
+      <div>
         {getPicture()}
       </div>
       <div className='member-text'>

@@ -4,14 +4,7 @@
   display: flex;
   flex-flow: column nowrap;
   padding: 10px;
-  justify-content: space-between;
-}
-
-.img-container {
-  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
-  flex-flow: column nowrap;
-  justify-content: center;
-  height: 100%;
+  /*justify-content: space-between;*/
 }
 
 .logo-text {
@@ -29,28 +22,4 @@
 }
 .express-image {
   max-width: 145px
-}
-
-/*
-    PHONE
- */
-@media (max-width : 480px) {
-
-
-}
-
-/*
-    TABLET
- */
-/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {*/
-@media (min-width : 481px) and (max-width : 1024px) {
-
-}
-
-/*
-    DESKTOP & LAPTOP
- */
-/*@media only screen  and (min-width : 1224px) {*/
-@media (min-width : 1025px) {
-
 }
