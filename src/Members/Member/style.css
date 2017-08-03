@@ -1,22 +1,24 @@
 /* Member */
 
 .member-item {
-  display: flex;
-  flex-flow: column nowrap;
-  padding: 10px;
-  justify-content: space-between;
-  max-width: 130px;
+
+
+
+
+
 }
 
 .member-img {
   max-height: 110px;
 }
-.member-text {
+.member-item {
   display: flex;
   flex-flow: column nowrap;
   height: 100%;
+  padding: 10px;
   text-align: center;
   margin-top: 10px;
+  max-width: 130px;
 }
 
 .member-name {
