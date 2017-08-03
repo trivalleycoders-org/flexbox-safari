@@ -7,12 +7,13 @@ import './style.css';
 const TechLogo = (props) => {
   const imageStyle = classNames(
     {
-      [props.style]: props.style ? true : false,
+      [props.style]: true,
       'extra-tmp': true,
+      'logo-height': true,
     }
   )
   return (
-    <div>
+    <div className='tech-logo'>
       <img className={imageStyle} src={props.url} alt="logo" />
       <div className='logo-text'>{props.name}</div>
     </div>

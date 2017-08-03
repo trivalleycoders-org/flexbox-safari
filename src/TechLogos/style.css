@@ -13,5 +13,5 @@
   display: -webkit-flex;     /* NEW - Chrome */
   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
