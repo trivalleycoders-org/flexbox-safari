@@ -1,20 +1,12 @@
 /* Member */
 
-.member-item {
-
-
-
-
-
-}
-
 .member-img {
   max-height: 110px;
 }
+
 .member-item {
   display: flex;
   flex-flow: column nowrap;
-  height: 100%;
   padding: 10px;
   text-align: center;
   margin-top: 10px;
@@ -24,6 +16,7 @@
 .member-name {
   font-weight: bold;
 }
+
 .member-role {
   margin-top: 3px;
 }

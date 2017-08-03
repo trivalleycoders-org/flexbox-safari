@@ -8,12 +8,13 @@ const TechLogo = (props) => {
   const imageStyle = classNames(
     {
       [props.style]: props.style ? true : false,
+      'extra-tmp': true,
     }
   )
   return (
-    <div className='logo-item'>
+    <div>
       <img className={imageStyle} src={props.url} alt="logo" />
-      <span className='logo-text'>{props.name}</span>
+      <div className='logo-text'>{props.name}</div>
     </div>
   );
 };

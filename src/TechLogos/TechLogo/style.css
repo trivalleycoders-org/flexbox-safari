@@ -1,25 +1,26 @@
 /* TechLogo */
 
-.logo-item {
-  display: flex;
-  flex-flow: column nowrap;
-  padding: 10px;
-  /*justify-content: space-between;*/
-}
-
 .logo-text {
-  /*font-size: 1.0em;*/
   margin-top: 3px;
   text-align: center;
+  font-size: 0.7em;
 }
 
 .small-image {
   max-height: 45px;
 }
+
 .wide-image {
-  max-height: 55px;
   max-width: 180px;
+  max-height: 45px;
 }
+
 .express-image {
-  max-width: 145px
+  max-width: 145px;
+  max-height: 45px;
+}
+
+.extra-tmp {
+  border: 0.5px solid white;
+
 }

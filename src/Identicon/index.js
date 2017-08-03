@@ -7,12 +7,10 @@ const getRandomNumber = (min, max) => {
 }
 const randomColorValue = (min=100, max=255) => {
   const ret = getRandomNumber(min, max)
-  // ku.log('randomColorValue', ret, 'blue')
   return ret
 }
 
 const generateIdenticon = (hash) => {
-  // const data = new Identicon('d3b07384d113edec49eaa6238ad5ff00', 148).toString();
   const options = {
     foreground: [
       randomColorValue(),
@@ -33,8 +31,7 @@ const generateIdenticon = (hash) => {
   return <img
     className='member-img'
     src={src}
-    responsive
-    alt='member picture'
+    alt='member'
          />
 }
 
