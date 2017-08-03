@@ -4,6 +4,7 @@ import iCSS from './tech-logos/css-3.01.svg'
 import iJS from './tech-logos/javascript.svg'
 import iMongo from './tech-logos/mongodb.svg'
 import iExpress from './tech-logos/express.svg'
+// import iExpress from './tech-logos/edit/express1.svg' // resized
 import iReact from './tech-logos/react.svg'
 import iNode from './tech-logos/nodejs.on-green.svg'
 
